@@ -1,25 +1,66 @@
 # [CashFlow](https://github.com/siddhardh-7/CashFlow)
 ##### Smart Expense Tracking for Smart Business Owners
 
-## App Overview
-The Smart Daily Expense Tracker is a powerful and intuitive mobile application designed specifically for small business owners. It simplifies the process of recording, tracking, and analyzing daily expenses, providing a clear overview of cash flow and eliminating lost records.
 
-## AI Usage Summary
-Throughout the development of this Smart Daily Expense Tracker, AI tools like ChatGPT, Claude and Copilot were instrumental in accelerating and optimizing the workflow. They assisted in generating UI layout ideas, structuring the MVVM architecture, and efficiently creating ViewModel and data classes. AI also provided valuable UX feedback and helped refine prompts for optimal code generation and problem-solving.
+## 📌 App Overview
+Smart Daily Expense Tracker is a full-featured module built for small business owners to easily record, analyze, and manage their daily expenses.  
+It provides a clean and simple UI with screens for **Expense Entry**, **Expense List**, and **Expense Reports**, helping users digitize expense records instead of losing them on paper or chat apps.  
 
-## Prompt Logs
-- Generate Jetpack Compose UI for expense entry screen with given fields
-- Suggest MVVM structure for expense tracking module
-- Write data class for Expense with title, amount, category, notes, and imagePath.
+---
 
-## Checklist of Features Implemented
-- [ ] Expense Entry Screen: Title, Amount, Category, Optional Notes, Optional Receipt Image, Submit Button, Real-time "Total Spent Today."
-- [ ] Expense List Screen: View expenses for Today/Previous dates, Group by category/time, Total count, total amount, Empty state.
-- [ ] Expense Report Screen: Mock report for last 7 days (Daily totals, Category-wise totals, Bar/Line chart).
-- [ ] State Management: ViewModel + StateFlow/LiveData.
-- [ ] Data Layer: In-memory repository or Room (if implemented).
-- [ ] Navigation: Screen transitions handled.
-- [ ] Export: Simulate PDF/CSV export (Optional: Trigger Share intent).
+## 🤖 AI Usage Summary
+Throughout the development, I used **AI tools (ChatGPT, Copilot, Cursor)** to accelerate the workflow.  
+AI helped me in:
+- Generating Jetpack Compose UI layouts and optimizing state management with `ViewModel + StateFlow`.  
+- Structuring the MVVM architecture and writing boilerplate ViewModel/Repository code faster.  
+- Prompting for UX/UI enhancements like empty states, validations, and animations.  
+- Creating clear documentation (this README) and refining code comments.  
+
+AI was not just supportive but **actively co-pilot in design + implementation decisions**.
+
+---
+
+## 💬 Prompt Logs
+Here are some of the **key prompts I used** (unedited / raw) while building the project:
+
+- "give me a clean MVVM structure for expense tracker in jetpack compose with stateflow and repository"  
+- "how to show total spent today at the top of screen in realtime jetpack compose"  
+- "jetpack compose expense entry screen with title, amount, category dropdown, notes, image upload and submit button"  
+- "add animation when expense is added and show toast message"  
+- "how to implement expense list screen grouped by category or time with toggle button"  
+- "can you show me mocked report screen with bar chart for last 7 days in compose"  
+- "simulate pdf or csv export and trigger share intent compose"  
+- "give me idea for theme switcher dark and light mode in jetpack compose"  
+- "how to add validation like amount > 0 and title should not be empty in viewmodel"  
+- "mock duplicate detection when adding same expense again"  
+- "navigation setup between 3 screens in jetpack compose cleanest way"  
+- "write code comments for better readability"  
+- "help me write impactful readme file for smart daily expense tracker module"  
+
+---
+
+## ✅ Checklist of Features Implemented
+- [x] Expense Entry Screen with:
+  - Title, Amount, Category, Notes, Receipt Image
+  - Realtime "Total Spent Today"
+  - Submit with animation + Toast
+- [x] Expense List Screen:
+  - View Today’s + Previous dates (filter/calendar)
+  - Group toggle (Category / Time)
+  - Show totals + empty state
+- [x] Expense Report Screen:
+  - Mock last 7 days report
+  - Daily totals, category totals
+  - Bar chart (mocked)
+- [x] Navigation between all screens
+- [x] In-memory Repository + ViewModel with StateFlow
+- [x] Bonus:
+  - Theme switcher (Light/Dark)
+  - Room database
+  - Basic validation (amount > 0, title non-empty)
+  - Duplicate detection (mock)
+  - Simple animations
+  - Export: Simulate PDF/CSV export
 
 ## APK Download Link
 [CashFlow APK](https://drive.google.com/file/d/17zTDZSs9Pr6cE4YqAfeAm8JoX9QGSRqq/view?usp=drive_link)
