@@ -26,8 +26,17 @@ Throughout the development of this Smart Daily Expense Tracker, AI tools like Ch
 
 
 ## Screenshots
+
+### Light Mode:
 <p align="center">
 <img width="33%" alt="entry" src="https://github.com/user-attachments/assets/02aa3294-57c1-4c3c-a20f-2783b3aa9858" />
 <img width="33%" alt="report" src="https://github.com/user-attachments/assets/89489f53-df40-45e8-8305-0eb0170c93d0" />
 <img width="33%" alt="list" src="https://github.com/user-attachments/assets/95fa7624-8b78-4848-a6d8-642e934ed3b0" />
+</p>
+
+### Dark Mode:
+<p align="center">
+  <img width="33%" alt="image" src="https://github.com/user-attachments/assets/1480ebdf-2141-4b79-9db2-74a30a86eb73" />
+  <img width="335" alt="image" src="https://github.com/user-attachments/assets/881e754d-88c8-4e25-9162-f2a030a742bf" />
+  <img width="33%" alt="image" src="https://github.com/user-attachments/assets/57a5ca53-f088-4c78-a6c7-a3aa1d476e9d" />
 </p>
